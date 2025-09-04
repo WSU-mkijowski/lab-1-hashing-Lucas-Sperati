@@ -13,12 +13,13 @@ for i in $(cat ../data/dictionary); do ##for loop that gets each item in the dic
   ##printf $i 
 
   for j in $(seq 100 105); do ##gets numbers from 100-105
-  	some_string="$j$i"
+  	some_string="$j$i" ##adds the number before the word
 	##printf $some_string
   	hashed_string=$(printf "$some_string" | sha256sum)
   	##echo "$hashed_string"  
 	
-	if [[ "${hashed_string:0:3}" == 000 ]]; then
+	if [[ "${hashed_string:0:3}" == 000 ]]; then ##if the first 3 characters of hashed_string are 000, then echo the hash
+		##word and number
 		echo $hashed_string
 		echo $i
 		echo $j
