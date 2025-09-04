@@ -55,19 +55,44 @@ Answer the following:
 hash)
 
 ```
+**000c2b8acf7682a457ff89f406ab1a50381af7b63b2f411d47e2bef51af759eb -
+100modest**
+
+**00060b66a56c29fdbf857770395fa50dbac4f52663e883d915d844b104bb876b -
+104regarding**
+
+**00041f7cc00413e8950130b5a32a992d52c8e1c6cb29420c8d499828a5ac1f42 -
+102solar**
 
 ```
 
 * How many words were in your dictionary?
+
+**3014**
+ 
 * How many nonces did your code iterate over?
+
+**15070**
+
 * What was the maximum number of hashes your code *could* compute given the above?
+
+
+
 * What did you think about Task 2?
+
+**I thought it sucked a little and really tested what I know about bash, but it was overall kinda fun**
+
 * Is there a better way than brute force to attempt to get higher valued coins?
+
+**yes**
+
 * Why or why not?
 
+**Brute force attacks take a very long time to run**
 
 ```bash
-please put any cool bash one-liners or other piped commands you
-learned/struggled with for task 2 here
+
+if [[ "${hashed_string:0:3}" == 000 ]]; then (if the first 3 characters from the string are 000 then it will run
+
 ```
 
