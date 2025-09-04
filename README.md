@@ -55,14 +55,14 @@ Answer the following:
 hash)
 
 ```
-**000c2b8acf7682a457ff89f406ab1a50381af7b63b2f411d47e2bef51af759eb -
-100modest**
+000c2b8acf7682a457ff89f406ab1a50381af7b63b2f411d47e2bef51af759eb -
+100modest
 
-**00060b66a56c29fdbf857770395fa50dbac4f52663e883d915d844b104bb876b -
-104regarding**
+00060b66a56c29fdbf857770395fa50dbac4f52663e883d915d844b104bb876b -
+104regarding
 
-**00041f7cc00413e8950130b5a32a992d52c8e1c6cb29420c8d499828a5ac1f42 -
-102solar**
+00041f7cc00413e8950130b5a32a992d52c8e1c6cb29420c8d499828a5ac1f42 -
+102solar
 
 ```
 
@@ -76,7 +76,7 @@ hash)
 
 * What was the maximum number of hashes your code *could* compute given the above?
 
-
+**45420980**
 
 * What did you think about Task 2?
 
