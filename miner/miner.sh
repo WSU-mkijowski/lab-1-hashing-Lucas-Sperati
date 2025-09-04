@@ -7,8 +7,6 @@ VARIABLE=some_string
 VARIABLE=hashed_string
 VARIABLE=random_number
 
-echo $VARIABLE
-
 ## Prints all words in provided dictionary
 ## (you might want to find a bigger dictionary)
 for i in $(cat ../data/dictionary); do ##for loop that gets each item in the dictionary  
@@ -20,8 +18,13 @@ for i in $(cat ../data/dictionary); do ##for loop that gets each item in the dic
 	##printf $some_string
 	printf "\n"
   	hashed_string=$(printf "$some_string" | sha256sum)
-  	echo "$hashed_string"  
+  	##echo "$hashed_string"  
+	
+	if [[ "${hashed_string:0:3}" == 167 ]]; then
+		echo $hashed_string
+		echo $i
 
+	fi
 done
 done
 
