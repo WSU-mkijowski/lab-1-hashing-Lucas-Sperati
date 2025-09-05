@@ -64,6 +64,10 @@ hash)
 00041f7cc00413e8950130b5a32a992d52c8e1c6cb29420c8d499828a5ac1f42 -
 102solar
 
+5 zero hash:
+000006e912b5567cf245e9ab27e3a29382288e9eaed6fc128a8476741e27a455 -
+6812audience
+
 ```
 
 * How many words were in your dictionary?
